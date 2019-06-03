@@ -1,0 +1,20 @@
+.jumbotron {
+  /* background-color: black; */
+  background-image: url(https://images.alphacoders.com/754/thumb-1920-754776.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: white;
+  color: black;
+}
+
+.display-4 {
+  opacity: 1;
+  font-weight: bold;
+  text-align: center;
+}
+
+.lead {
+  opacity: 1;
+  font-weight: bold;
+  font-size: 30px;
+}

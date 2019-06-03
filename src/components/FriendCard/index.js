@@ -5,10 +5,11 @@ function FriendCard(props) {
   return (
     <div className="img-container">
       <img
-        style={{ width: 200, height: 200 }}
+        style={{ width: 188, height: 188 }}
         className="img-thumbnail"
         alt={props.name}
         src={props.image}
+        onClick={() => props.scoreUpdate(props.id)}
       />
     </div>
   );
