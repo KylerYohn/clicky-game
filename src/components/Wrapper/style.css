@@ -10,13 +10,30 @@
 }
 
 h2 {
-  padding-top: 100px;
   text-align: center;
   font-size: 80px;
   font-weight: 500;
-  color: black;
+  color: #a7913d;
+  width: 40%;
+  background-color: #362336;
+  margin-left: 30%;
+  border-style: double;
 }
 
 .parent {
   background-image: url("https://i.kym-cdn.com/photos/images/original/001/169/088/c15.png");
+}
+
+@media only screen and (min-width: 1750px) {
+  .wrapper {
+    padding: 400px;
+    padding-bottom: 0;
+    padding-top: 50px;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+  }
 }

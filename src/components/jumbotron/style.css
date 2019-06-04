@@ -6,20 +6,25 @@
   border-color: #9a3192;
   border-width: 5px;
   border-radius: 0px;
-  padding: 50px;
+  padding: 30px;
+  position: relative;
 }
 
 .display-4 {
-  opacity: 1;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 #jojo {
   height: 300px;
   float: right;
+  margin-top: 0px;
+  position: relative;
+  top: -30px;
 }
 
 .lead {
   opacity: 1;
   font-weight: bold;
   font-size: 30px;
+  font-family: monospace;
 }

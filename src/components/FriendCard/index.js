@@ -9,7 +9,7 @@ function FriendCard(props) {
           marginBottom: 30,
           width: 188,
           height: 188,
-          background: "black"
+          background: "#9a3192"
         }}
         className="img-thumbnail"
         alt={props.name}

@@ -12,7 +12,9 @@ class app extends Component {
 
   gameOver = () => {
     this.setState({ score: 0 });
+    // eslint-disable-next-line
     this.state.friends.map((friends, i) => {
+      // eslint-disable-next-line
       this.state.friends[i].clicked = false;
     });
   };
@@ -24,8 +26,10 @@ class app extends Component {
     //check and see if the friend was clicked before
     if (friendClicked[0].clicked === false) {
       //sort through the array to find the friend at the proper index of the array and update its value of clicked to true
+      // eslint-disable-next-line
       this.state.friends.find((friend, i) => {
         if (friend.id === id) {
+          // eslint-disable-next-line
           this.state.friends[i].clicked = true;
         }
         this.setState({ score: this.state.score + 1 });
