@@ -1,16 +1,21 @@
 .jumbotron {
-  /* background-color: black; */
-  background-image: url(https://images.alphacoders.com/754/thumb-1920-754776.png);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-color: white;
-  color: black;
+  background-repeat: repeat;
+  background-color: #362336;
+  color: #a7913d;
+  border-style: double;
+  border-color: #9a3192;
+  border-width: 5px;
+  border-radius: 0px;
+  padding: 50px;
 }
 
 .display-4 {
   opacity: 1;
   font-weight: bold;
-  text-align: center;
+}
+#jojo {
+  height: 300px;
+  float: right;
 }
 
 .lead {
